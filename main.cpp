@@ -16,7 +16,7 @@ int main() {
 	string str;
 	while (fs >> str) {
 		int count = 0;
-		for (int i = 0; i < str.length(); i++) {
+		for (uint i = 0; i < str.length(); i++) {
 			count += (int) (str[i] - 'a' + 1);
 		}
 		if (count == 100)
